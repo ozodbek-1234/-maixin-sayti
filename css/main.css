@@ -192,19 +192,37 @@ body {
     padding: 13px 33px;
     background-color: #161513;
     margin-top: 45px;
+    color: var(--wihite-color);
 }
-.main-logo  {
-    position: relative;
+.main__logo-link:hover {
+    background-color: var(--wihite-color);
+    color: var(--blacke-color);
+    transition: .5s ease;
 }
 .main__link-logo {
     border: solid 1px var(--link-color);
     padding: 13px 33px;
-    position: absolute;
-    display: inline-flex;
+    color: var(--blacke-color);
+}
+.main__link-logo:hover {
+    background-color: var(--link-color);
+    color: var(--wihite-color);
+    transition: .5s ease;
+}
+.main__link-logo:active {
+    opacity: 0.6;
+}
+.main__logo-link:active {
+    opacity: 0.6;
 }
 .main-img {
     width: 100%;
     max-width: 563px;
+    margin-top: 67px;
+}
+.main-img:hover {
+    transform: scale(1.1);
+    transition: .5s ease;
 }
 
 
